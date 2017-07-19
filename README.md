@@ -38,4 +38,4 @@ License
 
 GNU GPL v2. Copyright 2017
 
-*** ***
+*** MTC lincense***
