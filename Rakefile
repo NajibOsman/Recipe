@@ -2,6 +2,6 @@ require("sinatra/activerecord")
 require("sinatra/activerecord/rake")
 
 
-	namespace(:db) do
-		task(:load config)
-	end
+namespace(:db) do
+	task(:load_config)
+end
