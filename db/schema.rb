@@ -18,14 +18,12 @@ ActiveRecord::Schema.define(version: 20170719134530) do
   create_table "ingredients", force: :cascade do |t|
     t.string "name"
     t.integer "instruction_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
-  create_table "instructions", force: :cascade do |t|
-    t.string "description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+    create_table "Instructions", force: :cascade do |t|
+      t.string "description"
+      t.datetime "created_at", null: false
+      t.datetime "updated_at", null: false
+    end
 
-end
+
+  end
