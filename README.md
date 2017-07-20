@@ -36,6 +36,6 @@ Navigate to `localhost:4567` in browser.
 License
 -------
 
-GNU GPL v2. Copyright 2017
+This project is licensed under the MIT License
 
 *** MTC lincense***
